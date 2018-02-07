@@ -1,0 +1,39 @@
+body {
+  background-color: #dfdfdf;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 64px;
+  padding-left: 32px;
+  padding-right: 32px;
+  align-items: center;
+}
+
+.nav-buttons {
+  display: flex;
+}
+
+.nav-buttons a {
+  margin: 0 12px;
+  /* refactor to em */
+  font-weight: 600;
+  font-size: 0.875em;
+  opacity: .7;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-buttons a:hover {
+  opacity: 1;
+}
+
+.wrapper {
+  background-color: #1d3e54;
+  background-image: radial-gradient(circle,#0084af 0,#1d3e54 100%);
+}
