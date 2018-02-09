@@ -27,7 +27,7 @@ const Content = () => (
         />
       </div>
     </div>
-    <div className="content-pane">
+    <div id="content-image" className="content-pane">
       <img className="content-image" alt="Laptop Store browse experience" src="/images/img1.png" width="910" />
     </div>
   </div>
