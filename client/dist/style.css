@@ -204,3 +204,45 @@ hr {
   color: #8f9ea8;
   padding-bottom: 16px;
 }
+
+.content-cta {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.ctacard {
+  text-decoration: none;
+  height:310px;
+  width: 228px;
+  background-color: #f7f8f9;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 24px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.ctacard-title {
+  height: 60px;
+  font-size: 22px;
+  color: #445d6e;
+}
+
+.ctacard-description {
+  font-size: 14px;
+  line-height: 20px;
+  color: #8f9ea8;
+}
+
+.ctacard-link {
+  color: #1488c6;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-right: 24px;
+  text-transform: uppercase;
+}
